@@ -1,4 +1,4 @@
-	<?php
+<?php
   
   function getToken($wechat,$time=7000){ // $wechat is json data
 		$token_file = './token.txt';
