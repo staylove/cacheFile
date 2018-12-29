@@ -1,6 +1,6 @@
 <?php
   
-  function getToken($wechat,$time=7000){ // $wechat is json data
+  	function getToken($wechat,$time=7000){ // $wechat is json data
 		$token_file = './token.txt';
 		$token = '';
 		if( !is_file($token_file) ){
